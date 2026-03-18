@@ -547,7 +547,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 443
   network: tcp
   udp: true
@@ -562,7 +562,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 8443
   network: tcp
   udp: true
@@ -592,7 +592,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 51190
   network: tcp
   udp: true
@@ -801,6 +801,10 @@ rules:
 - DOMAIN-KEYWORD,rutracker,🌍 VPN
 - DOMAIN-KEYWORD,rutor,🌍 VPN
 - DOMAIN-KEYWORD,nnm,🌍 VPN
+- DOMAIN-KEYWORD,stripe,🌍 VPN
+- DOMAIN-KEYWORD,ubuntu,🌍 VPN
+- DOMAIN-KEYWORD,telegram,🌍 VPN
+- DOMAIN-KEYWORD,t.me,🌍 VPN
 - IP-CIDR,160.79.104.0/23,🌍 VPN,no-resolve
 - IP-CIDR,160.79.104.0/21,🌍 VPN,no-resolve
 - IP-CIDR6,2607:6bc0::/48,🌍 VPN,no-resolve
