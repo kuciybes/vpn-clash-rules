@@ -7,6 +7,17 @@ dns:
   - https://common.dot.dns.yandex.net/dns-query
   - 77.88.8.8
   - 77.88.8.1
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports:
+      - 443
+      - 8443
+    HTTP:
+      ports:
+      - 80
+      - 8080
 proxies:
 - name: 🇩🇪 Германия | YT без рекламы
   type: vless
@@ -556,7 +567,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 443
   network: tcp
   udp: true
@@ -571,7 +582,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 8443
   network: tcp
   udp: true
