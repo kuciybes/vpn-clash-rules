@@ -547,7 +547,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 443
   network: tcp
   udp: true
@@ -562,7 +562,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 8443
   network: tcp
   udp: true
@@ -577,7 +577,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №9 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 51197
   network: tcp
   udp: true
@@ -592,7 +592,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 51190
   network: tcp
   udp: true
@@ -739,6 +739,9 @@ rules:
 - DOMAIN-KEYWORD,gpt,🌍 VPN
 - DOMAIN-KEYWORD,anthropic,🌍 VPN
 - DOMAIN-KEYWORD,claude,🌍 VPN
+- DOMAIN-KEYWORD,datadoghq,🌍 VPN
+- DOMAIN-KEYWORD,sentry,🌍 VPN
+- DOMAIN-KEYWORD,amazonaws,🌍 VPN
 - DOMAIN-KEYWORD,openrouter,🌍 VPN
 - DOMAIN-KEYWORD,deepl,🌍 VPN
 - DOMAIN-KEYWORD,models.dev,🌍 VPN
@@ -798,4 +801,7 @@ rules:
 - DOMAIN-KEYWORD,rutracker,🌍 VPN
 - DOMAIN-KEYWORD,rutor,🌍 VPN
 - DOMAIN-KEYWORD,nnm,🌍 VPN
+- IP-CIDR,160.79.104.0/23,🌍 VPN,no-resolve
+- IP-CIDR,160.79.104.0/21,🌍 VPN,no-resolve
+- IP-CIDR6,2607:6bc0::/48,🌍 VPN,no-resolve
 - MATCH,DIRECT
