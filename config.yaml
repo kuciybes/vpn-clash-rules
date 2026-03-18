@@ -1,0 +1,801 @@
+proxies:
+- name: 🇩🇪 Германия | YT без рекламы
+  type: vless
+  server: de.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: de.api-yandex.net
+  reality-opts:
+    public-key: NLARt-womsWqopLrSLNpfp3bHXy3Pg08_LbFUQPhpjU
+    short-id: 0f4dacf82203e11f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇸🇪 Швеция | YT без рекламы
+  type: vless
+  server: sw.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: sw.api-yandex.net
+  reality-opts:
+    public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
+    short-id: 0f4dacf89993e21f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇱🇹 Литва | YT без рекламы
+  type: vless
+  server: lt.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: lt.api-yandex.net
+  reality-opts:
+    public-key: q_5Tfp_XKPzQdOtiLkVePVMQE6UVAV9xK_WxTULcJSA
+    short-id: 00011cf66101e75f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇫🇮 Финляндия | YT без рекламы
+  type: vless
+  server: fl.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: fl.api-yandex.net
+  reality-opts:
+    public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
+    short-id: 0f4dacf89993e11f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇵🇱 Польша | YT без рекламы
+  type: vless
+  server: pl.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: pl.api-yandex.net
+  reality-opts:
+    public-key: I4lUR4e9kgCZUY_yd2vY_nOcLw0B-e-CNOQxgBgAJn8
+    short-id: 0f4dacf88252e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇷🇺 Россия | YT без рекламы
+  type: vless
+  server: ru.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: ru.api-yandex.net
+  reality-opts:
+    public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
+    short-id: 0f4dacf89993e20f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇨🇭 Швейцария
+  type: vless
+  server: ch.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: ch.api-yandex.net
+  reality-opts:
+    public-key: dYgKURfZTgnfxBZDT3SYZUuDIXC33aFdU47mBGC4pjw
+    short-id: 114aacf66101e75f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇦🇹 Австрия
+  type: vless
+  server: at.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: at.api-yandex.net
+  reality-opts:
+    public-key: hfJagZHzXLZaHqiyy59ZwnPFytw9WUMu1RGh29o3aVE
+    short-id: 2f4dacf62222e15f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇳🇱 Нидерланды
+  type: vless
+  server: nlbr.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: nlbr.api-yandex.net
+  reality-opts:
+    public-key: 86QxRUvBk3_xNQqwHoyW2MrkNm9eEhbR2uirSnWHkW4
+    short-id: 6f4dacf88292e06f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇺🇸 США
+  type: vless
+  server: us.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: us.api-yandex.net
+  reality-opts:
+    public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
+    short-id: 0f4dacf66101e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇳🇴 Норвегия
+  type: vless
+  server: no-most.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: no-most.api-yandex.net
+  reality-opts:
+    public-key: 3y_BXj6smo8Fc8hrdw94yucA0_V-f8Q-1-WvgNZpsik
+    short-id: 0a77acf80000e11f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇨🇦 Канада
+  type: vless
+  server: ca.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: ca.api-yandex.net
+  reality-opts:
+    public-key: Nbo573uk1nUiarXxtqQKPr0HGE9WerLF_eHHMsRrnEI
+    short-id: 0f4dacf62221e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇹🇷 Турция
+  type: vless
+  server: tc.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: tc.api-yandex.net
+  reality-opts:
+    public-key: RFUsS4_6sMKBUBLIvMKhimFFf6f1vkldZy-nnU7ZJQw
+    short-id: 0f4dacf62200e75f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇱🇻 Латвия
+  type: vless
+  server: lv.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: lv.api-yandex.net
+  reality-opts:
+    public-key: cLTwcyrDLe5-4EX35lpT0tWOe4aOjuXvXFjnH1rFBG4
+    short-id: 0f4dacf62222e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇬🇧 Великобритания
+  type: vless
+  server: gb-most.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: gb-most.api-yandex.net
+  reality-opts:
+    public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
+    short-id: 0fdfdcf08722a04f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇪🇸 Испания
+  type: vless
+  server: esp-most.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: esp-most.api-yandex.net
+  reality-opts:
+    public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
+    short-id: 0fdfdcf08722a04f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇰🇿 Казахстан
+  type: vless
+  server: kz.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: kz.api-yandex.net
+  reality-opts:
+    public-key: QXhMRZ1pg7uP2uM7wydWyJXFCV6kKuap1Uau0P3_yA0
+    short-id: 2f4dacf62222e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇫🇷 Франция
+  type: vless
+  server: fr.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: fr.api-yandex.net
+  reality-opts:
+    public-key: VVFlLJwqgGcYDWZbA_9RVqIlEtkuqqFesDcKTSF7qyU
+    short-id: 0f4dacf66101e70f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇭🇰 Гонконг
+  type: vless
+  server: hk.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: hk.api-yandex.net
+  reality-opts:
+    public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
+    short-id: 0f4dacf66101e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇮🇪 Ирландия
+  type: vless
+  server: irl.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: irl.api-yandex.net
+  reality-opts:
+    public-key: 7lVwd8R4oSlwO4jjmtQP9LtltVT2ifjjq6huCL_YjSU
+    short-id: 222aacf11101e75f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇮🇳 Индия
+  type: vless
+  server: in-most.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: in-most.api-yandex.net
+  reality-opts:
+    public-key: waphnS0jrd99Dvg1uxlabnTh_D81_i82rZffEFW513Y
+    short-id: 0a79acf99903e79f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇸🇬 Сингапур
+  type: vless
+  server: sg.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: sg.api-yandex.net
+  reality-opts:
+    public-key: bS0sniF87mp40JiHO6fEuNZmv0ZyHxu55ulj41pL038
+    short-id: 0f4dacf62201e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇧🇾 Беларусь
+  type: vless
+  server: by.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: by.api-yandex.net
+  reality-opts:
+    public-key: DjRqjdBkJgAG_le5Q14JXTki6m9XCsNKxgw74IB0kR4
+    short-id: 0f4dacf62211e75f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: ' 🇦🇪 ОАЭ'
+  type: vless
+  server: ae-most.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: ae-most.api-yandex.net
+  reality-opts:
+    public-key: 3y_BXj6smo8Fc8hrdw94yucA0_V-f8Q-1-WvgNZpsik
+    short-id: 0a77acf80000e11f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇯🇵Япония
+  type: vless
+  server: jp.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: jp.api-yandex.net
+  reality-opts:
+    public-key: IOO3P6BDqBjUA0gB4tgpvxrXL6Fit88QgpJ1y6GYyz0
+    short-id: 0f4dacf88202e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇰🇷 Южная Корея
+  type: vless
+  server: kr-most.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: kr-most.api-yandex.net
+  reality-opts:
+    public-key: MUr-0xaCfV0855VUaQnAKaPB1uzb_0W6GWRWH141pDQ
+    short-id: 0a77acf82203e11f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇵🇭 Филиппины
+  type: vless
+  server: ph.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: ph.api-yandex.net
+  reality-opts:
+    public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
+    short-id: 0f4dacf66101e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇦🇺 Австралия
+  type: vless
+  server: au.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: au.api-yandex.net
+  reality-opts:
+    public-key: dbmjphZ4zg3EaD6TnP3Cp64y2IdyS1RuaUk1pGHRJ0Q
+    short-id: 0f493cf66101e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇸🇪 Швеция • Gaming 🎮
+  type: vless
+  server: sw.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: sw.api-yandex.net
+  reality-opts:
+    public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
+    short-id: 0f4dacf89993e21f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇫🇮 Финляндия • Gaming 🎮
+  type: vless
+  server: fl.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: fl.api-yandex.net
+  reality-opts:
+    public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
+    short-id: 0f4dacf89993e11f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇪🇺 ⚡ Авто LTE Европа Резерв 1
+  type: vless
+  server: s60052.cdn.ngenix.net
+  port: 443
+  network: ws
+  udp: true
+  tls: true
+  servername: s60052.cdn.ngenix.net
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /ws
+    headers:
+      Host: s60052.cdn.ngenix.net
+  client-fingerprint: chrome
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+- name: 🇪🇺 ⚡ Авто LTE Европа Резерв 2
+  type: vless
+  server: s28315.cdn.ngenix.net
+  port: 443
+  network: ws
+  udp: true
+  tls: true
+  servername: s28315.cdn.ngenix.net
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /ws
+    headers:
+      Host: s28315.cdn.ngenix.net
+  client-fingerprint: chrome
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+- name: 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
+  type: vless
+  server: 51.250.19.254
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: api-maps.yandex.ru
+  reality-opts:
+    public-key: Wc7Iq8Hxbo7meWIG7mrznOBx_ZdRZEd5kTE1NlXGqiY
+    short-id: 0f4dacf08752e15f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
+  type: vless
+  server: 51.250.19.254
+  port: 8443
+  network: tcp
+  udp: true
+  tls: true
+  servername: api-maps.yandex.ru
+  reality-opts:
+    public-key: AWXV0vrwk2dEVibYa-7zWBhEPPNIZmQO6w-N4XPjeDU
+    short-id: 0f4dacf08712e45f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
+  type: vless
+  server: 51.250.19.254
+  port: 51197
+  network: tcp
+  udp: true
+  tls: true
+  servername: ads.x5.ru
+  reality-opts:
+    public-key: qWCLKF-vjac5RucLpavn2u-fa8y19_gu2YFBCh_gWVs
+    short-id: 0f4dacf08751e10f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇷🇺  LTE | №6 | Билайн, Мегафон, Т-моб
+  type: vless
+  server: 51.250.19.254
+  port: 51190
+  network: tcp
+  udp: true
+  tls: true
+  servername: ads.x5.ru
+  reality-opts:
+    public-key: Xp3KZUlwmX94kBzAfpJ-QFzfbgVOe_TdIilH_1dKfjc
+    short-id: 0f4dacf08751e90f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
+  type: vless
+  server: 84.201.178.109
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: api-maps.yandex.ru
+  reality-opts:
+    public-key: Wc7Iq8Hxbo7meWIG7mrznOBx_ZdRZEd5kTE1NlXGqiY
+    short-id: 0f4dacf08752e15f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
+  type: vless
+  server: 84.201.178.109
+  port: 8443
+  network: tcp
+  udp: true
+  tls: true
+  servername: api-maps.yandex.ru
+  reality-opts:
+    public-key: AWXV0vrwk2dEVibYa-7zWBhEPPNIZmQO6w-N4XPjeDU
+    short-id: 0f4dacf08712e45f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇪🇺 LTE | №9 | Билайн, Мегафон, Т-моб
+  type: vless
+  server: 84.201.160.204
+  port: 51197
+  network: tcp
+  udp: true
+  tls: true
+  servername: ads.x5.ru
+  reality-opts:
+    public-key: qWCLKF-vjac5RucLpavn2u-fa8y19_gu2YFBCh_gWVs
+    short-id: 0f4dacf08751e10f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+- name: 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
+  type: vless
+  server: 84.201.178.109
+  port: 51190
+  network: tcp
+  udp: true
+  tls: true
+  servername: ads.x5.ru
+  reality-opts:
+    public-key: Xp3KZUlwmX94kBzAfpJ-QFzfbgVOe_TdIilH_1dKfjc
+    short-id: 0f4dacf08751e90f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+proxy-groups:
+- name: 🌍 VPN
+  type: select
+  proxies:
+  - 🇷🇺 LTE Россия
+  - 🇪🇺 LTE Европа
+  - 📺 WiFi YouTube Fallback
+  - 📶 WiFi
+  - 🇩🇪 Германия | YT без рекламы
+  - 🇸🇪 Швеция | YT без рекламы
+  - 🇱🇹 Литва | YT без рекламы
+  - 🇫🇮 Финляндия | YT без рекламы
+  - 🇵🇱 Польша | YT без рекламы
+  - 🇷🇺 Россия | YT без рекламы
+  - 🇨🇭 Швейцария
+  - 🇦🇹 Австрия
+  - 🇳🇱 Нидерланды
+  - 🇺🇸 США
+  - 🇳🇴 Норвегия
+  - 🇨🇦 Канада
+  - 🇹🇷 Турция
+  - 🇱🇻 Латвия
+  - 🇬🇧 Великобритания
+  - 🇪🇸 Испания
+  - 🇰🇿 Казахстан
+  - 🇫🇷 Франция
+  - 🇭🇰 Гонконг
+  - 🇮🇪 Ирландия
+  - 🇮🇳 Индия
+  - 🇸🇬 Сингапур
+  - 🇧🇾 Беларусь
+  - ' 🇦🇪 ОАЭ'
+  - 🇯🇵Япония
+  - 🇰🇷 Южная Корея
+  - 🇵🇭 Филиппины
+  - 🇦🇺 Австралия
+  - 🇸🇪 Швеция • Gaming 🎮
+  - 🇫🇮 Финляндия • Gaming 🎮
+  - 🇪🇺 ⚡ Авто LTE Европа Резерв 1
+  - 🇪🇺 ⚡ Авто LTE Европа Резерв 2
+  - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
+  - '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
+  - 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
+  - 🇷🇺  LTE | №6 | Билайн, Мегафон, Т-моб
+  - 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
+  - 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
+  - 🇪🇺 LTE | №9 | Билайн, Мегафон, Т-моб
+  - 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
+- name: 🇷🇺 LTE Россия
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
+  - 🇷🇺  LTE | №6 | Билайн, Мегафон, Т-моб
+  - 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
+  - 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
+- name: 🇪🇺 LTE Европа
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇪🇺 ⚡ Авто LTE Европа Резерв 1
+  - 🇪🇺 ⚡ Авто LTE Европа Резерв 2
+  - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
+  - 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
+  - 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
+  - 🇪🇺 LTE | №9 | Билайн, Мегафон, Т-моб
+- name: 📺 WiFi YouTube Fallback
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇩🇪 Германия | YT без рекламы
+  - 🇸🇪 Швеция | YT без рекламы
+  - 🇱🇹 Литва | YT без рекламы
+  - 🇫🇮 Финляндия | YT без рекламы
+  - 🇵🇱 Польша | YT без рекламы
+- name: 📶 WiFi
+  type: fallback
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇨🇭 Швейцария
+  - 🇦🇹 Австрия
+  - 🇳🇱 Нидерланды
+  - 🇺🇸 США
+  - 🇳🇴 Норвегия
+  - 🇨🇦 Канада
+  - 🇹🇷 Турция
+  - 🇱🇻 Латвия
+  - 🇬🇧 Великобритания
+  - 🇪🇸 Испания
+  - 🇰🇿 Казахстан
+  - 🇫🇷 Франция
+  - 🇭🇰 Гонконг
+  - 🇮🇪 Ирландия
+  - 🇮🇳 Индия
+  - 🇸🇬 Сингапур
+  - 🇧🇾 Беларусь
+  - ' 🇦🇪 ОАЭ'
+  - 🇯🇵Япония
+  - 🇰🇷 Южная Корея
+  - 🇵🇭 Филиппины
+  - 🇦🇺 Австралия
+  - 🇸🇪 Швеция • Gaming 🎮
+  - 🇫🇮 Финляндия • Gaming 🎮
+rules:
+- DOMAIN-KEYWORD,app-analytics-services,🌍 VPN
+- DOMAIN-KEYWORD,play.googleapis,🌍 VPN
+- DOMAIN-KEYWORD,oauth,🌍 VPN
+- DOMAIN-KEYWORD,ai.google,🌍 VPN
+- DOMAIN-KEYWORD,developerprofiles-pa,🌍 VPN
+- DOMAIN-KEYWORD,notebooklm,🌍 VPN
+- DOMAIN-KEYWORD,gemini,🌍 VPN
+- DOMAIN-KEYWORD,aistudio,🌍 VPN
+- DOMAIN-KEYWORD,generativelanguage,🌍 VPN
+- DOMAIN-KEYWORD,google.ai,🌍 VPN
+- DOMAIN-KEYWORD,google.dev,🌍 VPN
+- DOMAIN-KEYWORD,play.google.com,🌍 VPN
+- DOMAIN-KEYWORD,clients6,🌍 VPN
+- DOMAIN-KEYWORD,googleapis,🌍 VPN
+- DOMAIN-KEYWORD,ytimg,🌍 VPN
+- DOMAIN-KEYWORD,googlevideo,🌍 VPN
+- DOMAIN-KEYWORD,ggpht,🌍 VPN
+- DOMAIN-KEYWORD,gstatic,🌍 VPN
+- DOMAIN-KEYWORD,youtube-nocookie,🌍 VPN
+- DOMAIN-KEYWORD,googleusercontent,🌍 VPN
+- DOMAIN-KEYWORD,youtu,🌍 VPN
+- DOMAIN-KEYWORD,openai,🌍 VPN
+- DOMAIN-KEYWORD,oai,🌍 VPN
+- DOMAIN-KEYWORD,gpt,🌍 VPN
+- DOMAIN-KEYWORD,anthropic,🌍 VPN
+- DOMAIN-KEYWORD,claude,🌍 VPN
+- DOMAIN-KEYWORD,openrouter,🌍 VPN
+- DOMAIN-KEYWORD,deepl,🌍 VPN
+- DOMAIN-KEYWORD,models.dev,🌍 VPN
+- DOMAIN-KEYWORD,influxdata,🌍 VPN
+- DOMAIN-KEYWORD,twimg,🌍 VPN
+- DOMAIN-KEYWORD,twitter,🌍 VPN
+- DOMAIN-KEYWORD,x.com,🌍 VPN
+- DOMAIN-KEYWORD,twtrdns,🌍 VPN
+- DOMAIN-KEYWORD,twttr,🌍 VPN
+- DOMAIN-KEYWORD,steam,🌍 VPN
+- DOMAIN-KEYWORD,linkedin,🌍 VPN
+- DOMAIN-KEYWORD,licdn,🌍 VPN
+- DOMAIN-KEYWORD,spotify,🌍 VPN
+- DOMAIN-KEYWORD,scdn,🌍 VPN
+- DOMAIN-KEYWORD,notion,🌍 VPN
+- DOMAIN-KEYWORD,medium.com,🌍 VPN
+- DOMAIN-KEYWORD,twitch,🌍 VPN
+- DOMAIN-KEYWORD,ttvnw,🌍 VPN
+- DOMAIN-KEYWORD,jtvnw,🌍 VPN
+- DOMAIN-KEYWORD,facebook,🌍 VPN
+- DOMAIN-KEYWORD,fbcdn,🌍 VPN
+- DOMAIN-KEYWORD,fbpigeon,🌍 VPN
+- DOMAIN-KEYWORD,fbsbx,🌍 VPN
+- DOMAIN-KEYWORD,m.me,🌍 VPN
+- DOMAIN-KEYWORD,meta,🌍 VPN
+- DOMAIN-KEYWORD,insta,🌍 VPN
+- DOMAIN-KEYWORD,igcdn,🌍 VPN
+- DOMAIN-KEYWORD,igsonar,🌍 VPN
+- DOMAIN-KEYWORD,igtv,🌍 VPN
+- DOMAIN-KEYWORD,whatsapp,🌍 VPN
+- DOMAIN-KEYWORD,wa.me,🌍 VPN
+- DOMAIN-KEYWORD,github,🌍 VPN
+- DOMAIN-KEYWORD,vscode,🌍 VPN
+- DOMAIN-KEYWORD,n8n,🌍 VPN
+- DOMAIN-KEYWORD,greasyfork,🌍 VPN
+- DOMAIN-KEYWORD,adspower,🌍 VPN
+- DOMAIN-KEYWORD,amazon,🌍 VPN
+- DOMAIN-KEYWORD,iherb,🌍 VPN
+- DOMAIN-KEYWORD,canva,🌍 VPN
+- DOMAIN-KEYWORD,discord,🌍 VPN
+- DOMAIN-KEYWORD,patreon,🌍 VPN
+- DOMAIN-KEYWORD,flibusta,🌍 VPN
+- DOMAIN-KEYWORD,goodreads,🌍 VPN
+- DOMAIN-KEYWORD,gr-assets,🌍 VPN
+- DOMAIN-KEYWORD,myheritage,🌍 VPN
+- DOMAIN-KEYWORD,paddle,🌍 VPN
+- DOMAIN-KEYWORD,slivup,🌍 VPN
+- DOMAIN-KEYWORD,sharewood,🌍 VPN
+- DOMAIN-KEYWORD,blizzard,🌍 VPN
+- DOMAIN-KEYWORD,blz-content,🌍 VPN
+- DOMAIN-KEYWORD,sms,🌍 VPN
+- DOMAIN-KEYWORD,phncdn,🌍 VPN
+- DOMAIN-KEYWORD,pornhub,🌍 VPN
+- DOMAIN-KEYWORD,xvideos,🌍 VPN
+- DOMAIN-KEYWORD,xv-ru,🌍 VPN
+- DOMAIN-KEYWORD,cdn77,🌍 VPN
+- DOMAIN-KEYWORD,rutracker,🌍 VPN
+- DOMAIN-KEYWORD,rutor,🌍 VPN
+- DOMAIN-KEYWORD,nnm,🌍 VPN
+- MATCH,DIRECT
