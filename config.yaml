@@ -283,15 +283,15 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇫🇷 Франция
   type: vless
-  server: fr.api-yandex.net
+  server: fr-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
   tls: true
-  servername: fr.api-yandex.net
+  servername: fr-most.api-yandex.net
   reality-opts:
-    public-key: VVFlLJwqgGcYDWZbA_9RVqIlEtkuqqFesDcKTSF7qyU
-    short-id: 0f4dacf66101e70f
+    public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
+    short-id: 0fdfdcf08722a04f
   client-fingerprint: qq
   uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
   packet-encoding: xudp
@@ -574,7 +574,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 443
   network: tcp
   udp: true
@@ -619,7 +619,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 51190
   network: tcp
   udp: true
