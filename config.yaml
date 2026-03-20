@@ -251,14 +251,14 @@ proxies:
   uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
   packet-encoding: xudp
   flow: xtls-rprx-vision
-- name: 🇪🇸 Испания
+- name: 🇫🇷 Франция
   type: vless
-  server: esp-most.api-yandex.net
+  server: fr-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
   tls: true
-  servername: esp-most.api-yandex.net
+  servername: fr-most.api-yandex.net
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
@@ -281,14 +281,14 @@ proxies:
   uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
   packet-encoding: xudp
   flow: xtls-rprx-vision
-- name: 🇫🇷 Франция
+- name: 🇪🇸 Испания
   type: vless
-  server: fr-most.api-yandex.net
+  server: esp-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
   tls: true
-  servername: fr-most.api-yandex.net
+  servername: esp-most.api-yandex.net
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
@@ -574,7 +574,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 443
   network: tcp
   udp: true
@@ -604,7 +604,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №9 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 51197
   network: tcp
   udp: true
@@ -656,9 +656,9 @@ proxy-groups:
   - 🇹🇷 Турция
   - 🇱🇻 Латвия
   - 🇬🇧 Великобритания
-  - 🇪🇸 Испания
-  - 🇰🇿 Казахстан
   - 🇫🇷 Франция
+  - 🇰🇿 Казахстан
+  - 🇪🇸 Испания
   - 🇭🇰 Гонконг
   - 🇮🇪 Ирландия
   - 🇮🇳 Индия
@@ -704,9 +704,9 @@ proxy-groups:
   - 🇹🇷 Турция
   - 🇱🇻 Латвия
   - 🇬🇧 Великобритания
-  - 🇪🇸 Испания
-  - 🇰🇿 Казахстан
   - 🇫🇷 Франция
+  - 🇰🇿 Казахстан
+  - 🇪🇸 Испания
   - 🇭🇰 Гонконг
   - 🇮🇪 Ирландия
   - 🇮🇳 Индия
@@ -773,9 +773,9 @@ proxy-groups:
   - 🇹🇷 Турция
   - 🇱🇻 Латвия
   - 🇬🇧 Великобритания
-  - 🇪🇸 Испания
-  - 🇰🇿 Казахстан
   - 🇫🇷 Франция
+  - 🇰🇿 Казахстан
+  - 🇪🇸 Испания
   - 🇭🇰 Гонконг
   - 🇮🇪 Ирландия
   - 🇮🇳 Индия
