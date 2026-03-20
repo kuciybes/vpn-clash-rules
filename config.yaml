@@ -386,6 +386,21 @@ proxies:
   uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
   packet-encoding: xudp
   flow: xtls-rprx-vision
+- name: 🇦🇲 Армения
+  type: vless
+  server: am.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  tls: true
+  servername: am.api-yandex.net
+  reality-opts:
+    public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
+    short-id: 0f4dacf66101e05f
+  client-fingerprint: qq
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
 - name: ' 🇦🇪 ОАЭ'
   type: vless
   server: ae-most.api-yandex.net
@@ -619,7 +634,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №9 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 51197
   network: tcp
   udp: true
@@ -634,7 +649,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 51190
   network: tcp
   udp: true
@@ -680,6 +695,7 @@ proxy-groups:
   - 🇮🇳 Индия
   - 🇸🇬 Сингапур
   - 🇧🇾 Беларусь
+  - 🇦🇲 Армения
   - ' 🇦🇪 ОАЭ'
   - 🇯🇵Япония
   - 🇰🇷 Южная Корея
@@ -729,6 +745,7 @@ proxy-groups:
   - 🇮🇳 Индия
   - 🇸🇬 Сингапур
   - 🇧🇾 Беларусь
+  - 🇦🇲 Армения
   - ' 🇦🇪 ОАЭ'
   - 🇯🇵Япония
   - 🇰🇷 Южная Корея
@@ -799,6 +816,7 @@ proxy-groups:
   - 🇮🇳 Индия
   - 🇸🇬 Сингапур
   - 🇧🇾 Беларусь
+  - 🇦🇲 Армения
   - ' 🇦🇪 ОАЭ'
   - 🇯🇵Япония
   - 🇰🇷 Южная Корея
