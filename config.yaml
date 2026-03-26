@@ -667,9 +667,13 @@ proxy-groups:
   type: select
   proxies:
   - 🇷🇺 LTE Россия
+  - ⚡ 🇷🇺 LTE Россия
   - 🇪🇺 LTE Европа
+  - ⚡ 🇪🇺 LTE Европа
   - 📺 WiFi YouTube Fallback
+  - ⚡ 📺 WiFi YouTube Fallback
   - 📶 WiFi
+  - ⚡ 📶 WiFi
   - DIRECT
   - 🇩🇪 Германия | YT без рекламы
   - 🇸🇪 Швеция | YT без рекламы
@@ -718,9 +722,13 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇷🇺 LTE Россия
+  - ⚡ 🇷🇺 LTE Россия
   - 🇪🇺 LTE Европа
+  - ⚡ 🇪🇺 LTE Европа
   - 📺 WiFi YouTube Fallback
+  - ⚡ 📺 WiFi YouTube Fallback
   - 📶 WiFi
+  - ⚡ 📶 WiFi
   - 🇩🇪 Германия | YT без рекламы
   - 🇸🇪 Швеция | YT без рекламы
   - 🇱🇹 Литва | YT без рекламы
@@ -767,37 +775,58 @@ proxy-groups:
   type: fallback
   url: https://www.gstatic.com/generate_204
   interval: 300
-  proxies:
+  proxies: &id001
   - '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
   - 🇷🇺  LTE | №6 | Билайн, Мегафон, Т-моб
   - 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   - 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
+- name: ⚡ 🇷🇺 LTE Россия
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 120
+  tolerance: 50
+  lazy: false
+  proxies: *id001
 - name: 🇪🇺 LTE Европа
   type: fallback
   url: https://www.gstatic.com/generate_204
   interval: 300
-  proxies:
+  proxies: &id002
   - 🇪🇺 ⚡ Авто LTE Европа Резерв 1
   - 🇪🇺 ⚡ Авто LTE Европа Резерв 2
   - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   - 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
   - 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   - 🇪🇺 LTE | №9 | Билайн, Мегафон, Т-моб
+- name: ⚡ 🇪🇺 LTE Европа
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 120
+  tolerance: 50
+  lazy: false
+  proxies: *id002
 - name: 📺 WiFi YouTube Fallback
   type: fallback
   url: https://www.gstatic.com/generate_204
   interval: 300
-  proxies:
+  proxies: &id003
   - 🇩🇪 Германия | YT без рекламы
   - 🇸🇪 Швеция | YT без рекламы
   - 🇱🇹 Литва | YT без рекламы
   - 🇫🇮 Финляндия | YT без рекламы
   - 🇵🇱 Польша | YT без рекламы
+- name: ⚡ 📺 WiFi YouTube Fallback
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 120
+  tolerance: 50
+  lazy: false
+  proxies: *id003
 - name: 📶 WiFi
   type: fallback
   url: https://www.gstatic.com/generate_204
   interval: 300
-  proxies:
+  proxies: &id004
   - 🇨🇭 Швейцария
   - 🇦🇹 Австрия
   - 🇳🇱 Нидерланды
@@ -824,6 +853,13 @@ proxy-groups:
   - 🇦🇺 Австралия
   - 🇸🇪 Швеция • Gaming 🎮
   - 🇫🇮 Финляндия • Gaming 🎮
+- name: ⚡ 📶 WiFi
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 120
+  tolerance: 50
+  lazy: false
+  proxies: *id004
 rules:
 - DOMAIN-SUFFIX,adkings.ru,DIRECT
 - DOMAIN-SUFFIX,max.ru,DIRECT
