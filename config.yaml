@@ -112,7 +112,7 @@ proxies:
   reality-opts:
     public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
     short-id: 0f4dacf89993e20f
-  client-fingerprint: qq
+  client-fingerprint: edge
   uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
   packet-encoding: xudp
   flow: xtls-rprx-vision
@@ -619,7 +619,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 8443
   network: tcp
   udp: true
