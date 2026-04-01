@@ -506,7 +506,7 @@ proxies:
   uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
   packet-encoding: xudp
   flow: xtls-rprx-vision
-- name: 🇪🇺 ⚡ Авто LTE Европа Резерв 1
+- name: 🇪🇺 ⚡ LTE Европа Резерв 1
   type: vless
   server: s60052.cdn.ngenix.net
   port: 443
@@ -524,7 +524,7 @@ proxies:
   client-fingerprint: chrome
   uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
   packet-encoding: xudp
-- name: 🇪🇺 ⚡ Авто LTE Европа Резерв 2
+- name: 🇪🇺 ⚡ LTE Европа Резерв 2
   type: vless
   server: s28315.cdn.ngenix.net
   port: 443
@@ -604,7 +604,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 443
   network: tcp
   udp: true
@@ -619,7 +619,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 8443
   network: tcp
   udp: true
@@ -707,8 +707,8 @@ proxy-groups:
   - 🇦🇺 Австралия
   - 🇸🇪 Швеция • Gaming 🎮
   - 🇫🇮 Финляндия • Gaming 🎮
-  - 🇪🇺 ⚡ Авто LTE Европа Резерв 1
-  - 🇪🇺 ⚡ Авто LTE Европа Резерв 2
+  - 🇪🇺 ⚡ LTE Европа Резерв 1
+  - 🇪🇺 ⚡ LTE Европа Резерв 2
   - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   - '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
   - 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
@@ -761,8 +761,8 @@ proxy-groups:
   - 🇦🇺 Австралия
   - 🇸🇪 Швеция • Gaming 🎮
   - 🇫🇮 Финляндия • Gaming 🎮
-  - 🇪🇺 ⚡ Авто LTE Европа Резерв 1
-  - 🇪🇺 ⚡ Авто LTE Европа Резерв 2
+  - 🇪🇺 ⚡ LTE Европа Резерв 1
+  - 🇪🇺 ⚡ LTE Европа Резерв 2
   - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   - '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
   - 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
@@ -792,8 +792,8 @@ proxy-groups:
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies: &id002
-  - 🇪🇺 ⚡ Авто LTE Европа Резерв 1
-  - 🇪🇺 ⚡ Авто LTE Европа Резерв 2
+  - 🇪🇺 ⚡ LTE Европа Резерв 1
+  - 🇪🇺 ⚡ LTE Европа Резерв 2
   - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   - 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
   - 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
