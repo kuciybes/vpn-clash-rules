@@ -6,7 +6,6 @@ dns:
   fake-ip-filter:
   - '*app-analytics-services*'
   - '*play.googleapis*'
-  - '*oauth*'
   - '*ai.google*'
   - '*developerprofiles-pa*'
   - '*notebooklm*'
@@ -16,7 +15,6 @@ dns:
   - '*google.ai*'
   - '*google.dev*'
   - '*play.google.com*'
-  - '*clients6*'
   - '*googleapis*'
   - '*ytimg*'
   - '*googlevideo*'
@@ -26,8 +24,7 @@ dns:
   - '*googleusercontent*'
   - '*youtu*'
   - '*openai*'
-  - '*oai*'
-  - '*gpt*'
+  - '*chatgpt*'
   - '*anthropic*'
   - '*claude*'
   - '*datadoghq*'
@@ -39,16 +36,21 @@ dns:
   - '*influxdata*'
   - '*twimg*'
   - '*twitter*'
-  - '*x.com*'
+  - +.x.com
   - '*twtrdns*'
   - '*twttr*'
-  - '*steam*'
+  - '*steampowered*'
+  - '*steamcommunity*'
+  - '*steamstatic*'
+  - '*steamcdn*'
+  - '*steamcontent*'
+  - +.store.steampowered.com
   - '*linkedin*'
   - '*licdn*'
   - '*spotify*'
   - '*scdn*'
   - '*notion*'
-  - '*medium.com*'
+  - +.medium.com
   - '*twitch*'
   - '*ttvnw*'
   - '*jtvnw*'
@@ -56,17 +58,19 @@ dns:
   - '*fbcdn*'
   - '*fbpigeon*'
   - '*fbsbx*'
-  - '*m.me*'
-  - '*meta*'
-  - '*insta*'
+  - +.m.me
+  - +.meta.com
+  - '*metacdn*'
+  - '*instagram*'
   - '*igcdn*'
   - '*igsonar*'
   - '*igtv*'
   - '*whatsapp*'
-  - '*wa.me*'
+  - +.wa.me
   - '*github*'
   - '*vscode*'
-  - '*n8n*'
+  - +.n8n.io
+  - +.n8n.cloud
   - '*greasyfork*'
   - '*adspower*'
   - '*amazon*'
@@ -83,7 +87,7 @@ dns:
   - '*sharewood*'
   - '*blizzard*'
   - '*blz-content*'
-  - '*sms*'
+  - '*sms-activate*'
   - '*phncdn*'
   - '*pornhub*'
   - '*xvideos*'
@@ -96,7 +100,7 @@ dns:
   - '*stripe*'
   - '*ubuntu*'
   - '*telegram*'
-  - '*t.me*'
+  - +.t.me
   default-nameserver:
   - 77.88.8.8
   - 77.88.8.1
@@ -104,8 +108,18 @@ dns:
   - https://common.dot.dns.yandex.net/dns-query
   - 77.88.8.8
   - 77.88.8.1
+  fallback:
+  - https://dns.google/dns-query
+  - https://cloudflare-dns.com/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: RU
+    ipcidr:
+    - 240.0.0.0/4
 sniffer:
   enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
   force-domain:
   - +.max.ru
   sniff:
@@ -957,7 +971,6 @@ rules:
 - DOMAIN-SUFFIX,max.ru,DIRECT
 - DOMAIN-KEYWORD,app-analytics-services,🌍 VPN
 - DOMAIN-KEYWORD,play.googleapis,🌍 VPN
-- DOMAIN-KEYWORD,oauth,🌍 VPN
 - DOMAIN-KEYWORD,ai.google,🌍 VPN
 - DOMAIN-KEYWORD,developerprofiles-pa,🌍 VPN
 - DOMAIN-KEYWORD,notebooklm,🌍 VPN
@@ -967,7 +980,6 @@ rules:
 - DOMAIN-KEYWORD,google.ai,🌍 VPN
 - DOMAIN-KEYWORD,google.dev,🌍 VPN
 - DOMAIN-KEYWORD,play.google.com,🌍 VPN
-- DOMAIN-KEYWORD,clients6,🌍 VPN
 - DOMAIN-KEYWORD,googleapis,🌍 VPN
 - DOMAIN-KEYWORD,ytimg,🌍 VPN
 - DOMAIN-KEYWORD,googlevideo,🌍 VPN
@@ -977,8 +989,7 @@ rules:
 - DOMAIN-KEYWORD,googleusercontent,🌍 VPN
 - DOMAIN-KEYWORD,youtu,🌍 VPN
 - DOMAIN-KEYWORD,openai,🌍 VPN
-- DOMAIN-KEYWORD,oai,🌍 VPN
-- DOMAIN-KEYWORD,gpt,🌍 VPN
+- DOMAIN-KEYWORD,chatgpt,🌍 VPN
 - DOMAIN-KEYWORD,anthropic,🌍 VPN
 - DOMAIN-KEYWORD,claude,🌍 VPN
 - DOMAIN-KEYWORD,datadoghq,🌍 VPN
@@ -990,16 +1001,21 @@ rules:
 - DOMAIN-KEYWORD,influxdata,🌍 VPN
 - DOMAIN-KEYWORD,twimg,🌍 VPN
 - DOMAIN-KEYWORD,twitter,🌍 VPN
-- DOMAIN-KEYWORD,x.com,🌍 VPN
+- DOMAIN-SUFFIX,x.com,🌍 VPN
 - DOMAIN-KEYWORD,twtrdns,🌍 VPN
 - DOMAIN-KEYWORD,twttr,🌍 VPN
-- DOMAIN-KEYWORD,steam,🌍 VPN
+- DOMAIN-KEYWORD,steampowered,🌍 VPN
+- DOMAIN-KEYWORD,steamcommunity,🌍 VPN
+- DOMAIN-KEYWORD,steamstatic,🌍 VPN
+- DOMAIN-KEYWORD,steamcdn,🌍 VPN
+- DOMAIN-KEYWORD,steamcontent,🌍 VPN
+- DOMAIN-SUFFIX,store.steampowered.com,🌍 VPN
 - DOMAIN-KEYWORD,linkedin,🌍 VPN
 - DOMAIN-KEYWORD,licdn,🌍 VPN
 - DOMAIN-KEYWORD,spotify,🌍 VPN
 - DOMAIN-KEYWORD,scdn,🌍 VPN
 - DOMAIN-KEYWORD,notion,🌍 VPN
-- DOMAIN-KEYWORD,medium.com,🌍 VPN
+- DOMAIN-SUFFIX,medium.com,🌍 VPN
 - DOMAIN-KEYWORD,twitch,🌍 VPN
 - DOMAIN-KEYWORD,ttvnw,🌍 VPN
 - DOMAIN-KEYWORD,jtvnw,🌍 VPN
@@ -1007,17 +1023,19 @@ rules:
 - DOMAIN-KEYWORD,fbcdn,🌍 VPN
 - DOMAIN-KEYWORD,fbpigeon,🌍 VPN
 - DOMAIN-KEYWORD,fbsbx,🌍 VPN
-- DOMAIN-KEYWORD,m.me,🌍 VPN
-- DOMAIN-KEYWORD,meta,🌍 VPN
-- DOMAIN-KEYWORD,insta,🌍 VPN
+- DOMAIN-SUFFIX,m.me,🌍 VPN
+- DOMAIN-SUFFIX,meta.com,🌍 VPN
+- DOMAIN-KEYWORD,metacdn,🌍 VPN
+- DOMAIN-KEYWORD,instagram,🌍 VPN
 - DOMAIN-KEYWORD,igcdn,🌍 VPN
 - DOMAIN-KEYWORD,igsonar,🌍 VPN
 - DOMAIN-KEYWORD,igtv,🌍 VPN
 - DOMAIN-KEYWORD,whatsapp,🌍 VPN
-- DOMAIN-KEYWORD,wa.me,🌍 VPN
+- DOMAIN-SUFFIX,wa.me,🌍 VPN
 - DOMAIN-KEYWORD,github,🌍 VPN
 - DOMAIN-KEYWORD,vscode,🌍 VPN
-- DOMAIN-KEYWORD,n8n,🌍 VPN
+- DOMAIN-SUFFIX,n8n.io,🌍 VPN
+- DOMAIN-SUFFIX,n8n.cloud,🌍 VPN
 - DOMAIN-KEYWORD,greasyfork,🌍 VPN
 - DOMAIN-KEYWORD,adspower,🌍 VPN
 - DOMAIN-KEYWORD,amazon,🌍 VPN
@@ -1034,7 +1052,7 @@ rules:
 - DOMAIN-KEYWORD,sharewood,🌍 VPN
 - DOMAIN-KEYWORD,blizzard,🌍 VPN
 - DOMAIN-KEYWORD,blz-content,🌍 VPN
-- DOMAIN-KEYWORD,sms,🌍 VPN
+- DOMAIN-KEYWORD,sms-activate,🌍 VPN
 - DOMAIN-KEYWORD,phncdn,🌍 VPN
 - DOMAIN-KEYWORD,pornhub,🌍 VPN
 - DOMAIN-KEYWORD,xvideos,🌍 VPN
@@ -1047,7 +1065,7 @@ rules:
 - DOMAIN-KEYWORD,stripe,🌍 VPN
 - DOMAIN-KEYWORD,ubuntu,🌍 VPN
 - DOMAIN-KEYWORD,telegram,🌍 VPN
-- DOMAIN-KEYWORD,t.me,🌍 VPN
+- DOMAIN-SUFFIX,t.me,🌍 VPN
 - IP-CIDR,160.79.104.0/23,🌍 VPN,no-resolve
 - IP-CIDR,160.79.104.0/21,🌍 VPN,no-resolve
 - IP-CIDR6,2607:6bc0::/48,🌍 VPN,no-resolve
