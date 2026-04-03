@@ -126,8 +126,7 @@ sniffer:
   enable: true
   force-dns-mapping: true
   parse-pure-ip: true
-  force-domain:
-  - +.max.ru
+  force-domain: []
   sniff:
     TLS:
       ports:
@@ -716,7 +715,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 443
   network: tcp
   udp: true
@@ -731,7 +730,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 8443
   network: tcp
   udp: true
@@ -746,7 +745,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №9 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 51197
   network: tcp
   udp: true
@@ -761,7 +760,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 51190
   network: tcp
   udp: true
@@ -977,8 +976,6 @@ proxy-groups:
   unified-delay: true
   proxies: *id004
 rules:
-- DOMAIN-SUFFIX,adkings.ru,DIRECT
-- DOMAIN-SUFFIX,max.ru,DIRECT
 - DOMAIN-KEYWORD,app-analytics-services,🌍 VPN
 - DOMAIN-KEYWORD,play.googleapis,🌍 VPN
 - DOMAIN-KEYWORD,oauth,🌍 VPN
