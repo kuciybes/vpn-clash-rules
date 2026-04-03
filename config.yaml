@@ -37,6 +37,7 @@ dns:
   - '*sentry*'
   - '*amazonaws*'
   - '*openrouter*'
+  - '*buildwithfern*'
   - '*deepl*'
   - '*models.dev*'
   - '*influxdata*'
@@ -730,7 +731,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 8443
   network: tcp
   udp: true
@@ -1007,6 +1008,7 @@ rules:
 - DOMAIN-KEYWORD,sentry,🌍 VPN
 - DOMAIN-KEYWORD,amazonaws,🌍 VPN
 - DOMAIN-KEYWORD,openrouter,🌍 VPN
+- DOMAIN-KEYWORD,buildwithfern,🌍 VPN
 - DOMAIN-KEYWORD,deepl,🌍 VPN
 - DOMAIN-KEYWORD,models.dev,🌍 VPN
 - DOMAIN-KEYWORD,influxdata,🌍 VPN
