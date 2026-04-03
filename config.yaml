@@ -29,6 +29,8 @@ dns:
   - '*youtu*'
   - '*openai*'
   - '*chatgpt*'
+  - '*gpt*'
+  - '*oai*'
   - '*anthropic*'
   - '*claude*'
   - '*datadoghq*'
@@ -729,7 +731,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 8443
   network: tcp
   udp: true
@@ -759,7 +761,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 51190
   network: tcp
   udp: true
@@ -1000,6 +1002,8 @@ rules:
 - DOMAIN-KEYWORD,youtu,🌍 VPN
 - DOMAIN-KEYWORD,openai,🌍 VPN
 - DOMAIN-KEYWORD,chatgpt,🌍 VPN
+- DOMAIN-KEYWORD,gpt,🌍 VPN
+- DOMAIN-KEYWORD,oai,🌍 VPN
 - DOMAIN-KEYWORD,anthropic,🌍 VPN
 - DOMAIN-KEYWORD,claude,🌍 VPN
 - DOMAIN-KEYWORD,datadoghq,🌍 VPN
