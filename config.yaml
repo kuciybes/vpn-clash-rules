@@ -618,6 +618,24 @@ proxies:
   uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
   packet-encoding: xudp
   flow: xtls-rprx-vision
+- name: 🇱🇹⚡ LTE Литва
+  type: vless
+  server: s60052.cdn.ngenix.net
+  port: 443
+  network: ws
+  udp: true
+  tls: true
+  servername: s60052.cdn.ngenix.net
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /ws
+    headers:
+      Host: s60052.cdn.ngenix.net
+  client-fingerprint: chrome
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
 - name: 🇳🇱⚡ LTE Нидерланды
   type: vless
   server: s28315.cdn.ngenix.net
@@ -698,7 +716,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 443
   network: tcp
   udp: true
@@ -713,7 +731,7 @@ proxies:
   flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 8443
   network: tcp
   udp: true
@@ -801,6 +819,7 @@ proxy-groups:
   - 🇦🇺 Австралия
   - 🇸🇪 Швеция • Gaming 🎮
   - 🇫🇮 Финляндия • Gaming 🎮
+  - 🇱🇹⚡ LTE Литва
   - 🇳🇱⚡ LTE Нидерланды
   - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   - '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
@@ -854,6 +873,7 @@ proxy-groups:
   - 🇦🇺 Австралия
   - 🇸🇪 Швеция • Gaming 🎮
   - 🇫🇮 Финляндия • Gaming 🎮
+  - 🇱🇹⚡ LTE Литва
   - 🇳🇱⚡ LTE Нидерланды
   - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   - '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
@@ -946,6 +966,7 @@ proxy-groups:
   - 🇦🇺 Австралия
   - 🇸🇪 Швеция • Gaming 🎮
   - 🇫🇮 Финляндия • Gaming 🎮
+  - 🇱🇹⚡ LTE Литва
   - 🇳🇱⚡ LTE Нидерланды
 - name: ⚡ 📶 WiFi
   type: url-test
