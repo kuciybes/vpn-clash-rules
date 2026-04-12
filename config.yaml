@@ -144,486 +144,488 @@ proxies:
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: de.api-yandex.net
   reality-opts:
     public-key: NLARt-womsWqopLrSLNpfp3bHXy3Pg08_LbFUQPhpjU
     short-id: 0f4dacf82203e11f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇸🇪 Швеция | YT без рекламы
   type: vless
   server: sw.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: sw.api-yandex.net
   reality-opts:
     public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
     short-id: 0f4dacf89993e21f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇱🇹 Литва | YT без рекламы
   type: vless
   server: lt.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: lt.api-yandex.net
   reality-opts:
     public-key: q_5Tfp_XKPzQdOtiLkVePVMQE6UVAV9xK_WxTULcJSA
     short-id: 00011cf66101e75f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇫🇮 Финляндия | YT без рекламы
   type: vless
   server: fl.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: fl.api-yandex.net
   reality-opts:
     public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
     short-id: 0f4dacf89993e11f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇵🇱 Польша | YT без рекламы
   type: vless
   server: pl.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: pl.api-yandex.net
   reality-opts:
     public-key: I4lUR4e9kgCZUY_yd2vY_nOcLw0B-e-CNOQxgBgAJn8
     short-id: 0f4dacf88252e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇷🇺 Россия | YT без рекламы
   type: vless
   server: ru.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: ru.api-yandex.net
   reality-opts:
     public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
     short-id: 0f4dacf89993e20f
   client-fingerprint: edge
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇨🇭 Швейцария
   type: vless
   server: ch.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: ch.api-yandex.net
   reality-opts:
     public-key: dYgKURfZTgnfxBZDT3SYZUuDIXC33aFdU47mBGC4pjw
     short-id: 114aacf66101e75f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇦🇹 Австрия
   type: vless
   server: at.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: at.api-yandex.net
   reality-opts:
     public-key: hfJagZHzXLZaHqiyy59ZwnPFytw9WUMu1RGh29o3aVE
     short-id: 2f4dacf62222e15f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇳🇱 Нидерланды
   type: vless
   server: nlbr.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: nlbr.api-yandex.net
   reality-opts:
     public-key: 86QxRUvBk3_xNQqwHoyW2MrkNm9eEhbR2uirSnWHkW4
     short-id: 6f4dacf88292e06f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇺🇸 США
   type: vless
   server: us.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: us.api-yandex.net
   reality-opts:
     public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
     short-id: 0f4dacf66101e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇳🇴 Норвегия
   type: vless
   server: no-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: no-most.api-yandex.net
   reality-opts:
     public-key: 3y_BXj6smo8Fc8hrdw94yucA0_V-f8Q-1-WvgNZpsik
     short-id: 0a77acf80000e11f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇨🇦 Канада
   type: vless
   server: ca.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: ca.api-yandex.net
   reality-opts:
     public-key: Nbo573uk1nUiarXxtqQKPr0HGE9WerLF_eHHMsRrnEI
     short-id: 0f4dacf62221e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇹🇷 Турция
   type: vless
   server: tc.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: tc.api-yandex.net
   reality-opts:
     public-key: RFUsS4_6sMKBUBLIvMKhimFFf6f1vkldZy-nnU7ZJQw
     short-id: 0f4dacf62200e75f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: ' 🇮🇹 Италия'
   type: vless
   server: it-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: it-most.api-yandex.net
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇱🇻 Латвия
   type: vless
   server: lv.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: lv.api-yandex.net
   reality-opts:
     public-key: cLTwcyrDLe5-4EX35lpT0tWOe4aOjuXvXFjnH1rFBG4
     short-id: 0f4dacf62222e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇬🇧 Великобритания
   type: vless
   server: gb-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: gb-most.api-yandex.net
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇫🇷 Франция
   type: vless
   server: fr-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: fr-most.api-yandex.net
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇰🇿 Казахстан
   type: vless
   server: kz.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: kz.api-yandex.net
   reality-opts:
     public-key: QXhMRZ1pg7uP2uM7wydWyJXFCV6kKuap1Uau0P3_yA0
     short-id: 2f4dacf62222e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇪🇸 Испания
   type: vless
   server: esp-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: esp-most.api-yandex.net
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇭🇰 Гонконг
   type: vless
   server: hk.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: hk.api-yandex.net
   reality-opts:
     public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
     short-id: 0f4dacf66101e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇮🇪 Ирландия
   type: vless
   server: irl.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: irl.api-yandex.net
   reality-opts:
     public-key: 7lVwd8R4oSlwO4jjmtQP9LtltVT2ifjjq6huCL_YjSU
     short-id: 222aacf11101e75f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇮🇳 Индия
   type: vless
   server: in-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: in-most.api-yandex.net
   reality-opts:
     public-key: waphnS0jrd99Dvg1uxlabnTh_D81_i82rZffEFW513Y
     short-id: 0a79acf99903e79f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇸🇬 Сингапур
   type: vless
   server: sg.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: sg.api-yandex.net
   reality-opts:
     public-key: bS0sniF87mp40JiHO6fEuNZmv0ZyHxu55ulj41pL038
     short-id: 0f4dacf62201e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇧🇾 Беларусь
   type: vless
   server: by.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: by.api-yandex.net
   reality-opts:
     public-key: DjRqjdBkJgAG_le5Q14JXTki6m9XCsNKxgw74IB0kR4
     short-id: 0f4dacf62211e75f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇦🇲 Армения
   type: vless
   server: am.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: am.api-yandex.net
   reality-opts:
     public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
     short-id: 0f4dacf66101e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: ' 🇦🇪 ОАЭ'
   type: vless
   server: ae-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: ae-most.api-yandex.net
   reality-opts:
     public-key: 3y_BXj6smo8Fc8hrdw94yucA0_V-f8Q-1-WvgNZpsik
     short-id: 0a77acf80000e11f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇯🇵Япония
   type: vless
   server: jp.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: jp.api-yandex.net
   reality-opts:
     public-key: IOO3P6BDqBjUA0gB4tgpvxrXL6Fit88QgpJ1y6GYyz0
     short-id: 0f4dacf88202e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇰🇷 Южная Корея
   type: vless
   server: kr-most.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: kr-most.api-yandex.net
   reality-opts:
     public-key: MUr-0xaCfV0855VUaQnAKaPB1uzb_0W6GWRWH141pDQ
     short-id: 0a77acf82203e11f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇵🇭 Филиппины
   type: vless
   server: ph.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: ph.api-yandex.net
   reality-opts:
     public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
     short-id: 0f4dacf66101e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇦🇺 Австралия
   type: vless
   server: au.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: au.api-yandex.net
   reality-opts:
     public-key: dbmjphZ4zg3EaD6TnP3Cp64y2IdyS1RuaUk1pGHRJ0Q
     short-id: 0f493cf66101e05f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇸🇪 Швеция • Gaming 🎮
   type: vless
   server: sw.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: sw.api-yandex.net
   reality-opts:
     public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
     short-id: 0f4dacf89993e21f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇫🇮 Финляндия • Gaming 🎮
   type: vless
   server: fl.api-yandex.net
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: fl.api-yandex.net
   reality-opts:
     public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
     short-id: 0f4dacf89993e11f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇳🇱⚡ LTE Нидерланды
   type: vless
   server: s28315.cdn.ngenix.net
   port: 443
   network: ws
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
   tls: true
   servername: s28315.cdn.ngenix.net
   alpn:
@@ -634,14 +636,14 @@ proxies:
     headers:
       Host: s28315.cdn.ngenix.net
   client-fingerprint: chrome
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
 - name: 🇱🇹⚡ LTE Литва
   type: vless
   server: s60052.cdn.ngenix.net
   port: 443
   network: ws
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
   tls: true
   servername: s60052.cdn.ngenix.net
   alpn:
@@ -652,128 +654,126 @@ proxies:
     headers:
       Host: s60052.cdn.ngenix.net
   client-fingerprint: chrome
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
 - name: 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   type: vless
   server: 51.250.19.254
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: api-maps.yandex.ru
   reality-opts:
     public-key: Wc7Iq8Hxbo7meWIG7mrznOBx_ZdRZEd5kTE1NlXGqiY
     short-id: 0f4dacf08752e15f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
   type: vless
   server: 51.250.19.254
   port: 8443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: api-maps.yandex.ru
   reality-opts:
     public-key: AWXV0vrwk2dEVibYa-7zWBhEPPNIZmQO6w-N4XPjeDU
     short-id: 0f4dacf08712e45f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
   type: vless
   server: 51.250.19.254
   port: 51197
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: ads.x5.ru
   reality-opts:
     public-key: qWCLKF-vjac5RucLpavn2u-fa8y19_gu2YFBCh_gWVs
     short-id: 0f4dacf08751e10f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №6 | Билайн, Мегафон, Т-моб
   type: vless
   server: 51.250.19.254
   port: 51190
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: ads.x5.ru
   reality-opts:
     public-key: Xp3KZUlwmX94kBzAfpJ-QFzfbgVOe_TdIilH_1dKfjc
     short-id: 0f4dacf08751e90f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
   server: 84.201.178.109
   port: 443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: api-maps.yandex.ru
   reality-opts:
     public-key: Wc7Iq8Hxbo7meWIG7mrznOBx_ZdRZEd5kTE1NlXGqiY
     short-id: 0f4dacf08752e15f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 8443
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: api-maps.yandex.ru
   reality-opts:
     public-key: AWXV0vrwk2dEVibYa-7zWBhEPPNIZmQO6w-N4XPjeDU
     short-id: 0f4dacf08712e45f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇪🇺 LTE | №9 | Билайн, Мегафон, Т-моб
   type: vless
   server: 84.201.160.204
   port: 51197
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: ads.x5.ru
   reality-opts:
     public-key: qWCLKF-vjac5RucLpavn2u-fa8y19_gu2YFBCh_gWVs
     short-id: 0f4dacf08751e10f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 - name: 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 51190
   network: tcp
   udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
   tls: true
   servername: ads.x5.ru
   reality-opts:
     public-key: Xp3KZUlwmX94kBzAfpJ-QFzfbgVOe_TdIilH_1dKfjc
     short-id: 0f4dacf08751e90f
   client-fingerprint: qq
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
 proxy-groups:
 - name: 🌍 VPN
   type: select
