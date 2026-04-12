@@ -716,7 +716,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇪🇺 LTE | №7 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 443
   network: tcp
   udp: true
@@ -761,7 +761,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇷🇺  LTE | №10 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 51190
   network: tcp
   udp: true
