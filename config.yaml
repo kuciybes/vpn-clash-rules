@@ -752,7 +752,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇪🇺⚡ LTE Европа 3
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 443
   network: tcp
   udp: true
@@ -1019,6 +1019,14 @@ proxy-groups:
   unified-delay: true
   proxies: *id004
 rules:
+- DOMAIN-SUFFIX,firebaseinstallations.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,firebaseremoteconfig.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,fcm.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,mobilecrashreporting.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,android.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,app-measurement.com,DIRECT
+- DOMAIN-SUFFIX,crashlytics.com,DIRECT
 - DOMAIN-KEYWORD,app-analytics-services,🌍 VPN
 - DOMAIN-KEYWORD,play.googleapis,🌍 VPN
 - DOMAIN-KEYWORD,oauth,🌍 VPN
