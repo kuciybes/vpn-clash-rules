@@ -672,6 +672,24 @@ proxies:
     headers:
       Host: s46706.cdn.ngenix.net
   client-fingerprint: chrome
+- name: 🇵🇱 ⚡ LTE Польша
+  type: vless
+  server: s42701.cdn.ngenix.net
+  port: 443
+  network: ws
+  udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  tls: true
+  servername: s42701.cdn.ngenix.net
+  alpn:
+  - h2
+  - http/1.1
+  ws-opts:
+    path: /ws
+    headers:
+      Host: s42701.cdn.ngenix.net
+  client-fingerprint: chrome
 - name: 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   type: vless
   server: 51.250.19.254
@@ -749,7 +767,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇷🇺  LTE | №8 | Билайн, Мегафон, Т-моб
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 8443
   network: tcp
   udp: true
@@ -840,6 +858,7 @@ proxy-groups:
   - 🇳🇱⚡ LTE Нидерланды
   - 🇱🇹⚡ LTE Литва
   - '🇷🇺⚡ LTE Россия '
+  - 🇵🇱 ⚡ LTE Польша
   - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   - '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
   - 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
@@ -895,6 +914,7 @@ proxy-groups:
   - 🇳🇱⚡ LTE Нидерланды
   - 🇱🇹⚡ LTE Литва
   - '🇷🇺⚡ LTE Россия '
+  - 🇵🇱 ⚡ LTE Польша
   - 🇪🇺 LTE | №3 | Билайн, Мегафон, Т-моб
   - '🇷🇺 LTE | №4 | Билайн, Мегафон, Т-моб '
   - 🇪🇺 LTE | №5 | Билайн, Мегафон, Т-моб
@@ -989,6 +1009,7 @@ proxy-groups:
   - 🇫🇮 Финляндия • Gaming 🎮
   - 🇳🇱⚡ LTE Нидерланды
   - 🇱🇹⚡ LTE Литва
+  - 🇵🇱 ⚡ LTE Польша
 - name: ⚡ 📶 WiFi
   type: url-test
   url: https://www.gstatic.com/generate_204
