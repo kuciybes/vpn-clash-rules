@@ -125,6 +125,7 @@ dns:
     - 240.0.0.0/4
 sniffer:
   enable: true
+  override-destination: true
   force-dns-mapping: true
   parse-pure-ip: true
   force-domain: []
