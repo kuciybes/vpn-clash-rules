@@ -112,18 +112,19 @@ dns:
   - 77.88.8.8
   - 77.88.8.1
   nameserver:
-  - https://dns.google/dns-query
-  - https://cloudflare-dns.com/dns-query
-  proxy-server-nameserver:
-  - 8.8.8.8
-  - 1.1.1.1
-  direct-nameserver:
   - https://common.dot.dns.yandex.net/dns-query
   - 77.88.8.8
   - 77.88.8.1
+  fallback:
+  - https://dns.google/dns-query
+  - https://cloudflare-dns.com/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: RU
+    ipcidr:
+    - 240.0.0.0/4
 sniffer:
   enable: true
-  override-destination: true
   force-dns-mapping: true
   parse-pure-ip: true
   force-domain: []
