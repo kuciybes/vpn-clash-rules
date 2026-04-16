@@ -767,7 +767,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇷🇺⚡ LTE Россия 3
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 8443
   network: tcp
   udp: true
@@ -797,7 +797,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇷🇺⚡ LTE Россия 4
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 51190
   network: tcp
   udp: true
@@ -815,13 +815,9 @@ proxy-groups:
   type: select
   proxies:
   - 🇷🇺 LTE Россия
-  - ⚡ 🇷🇺 LTE Россия
   - 🇪🇺 LTE Европа
-  - ⚡ 🇪🇺 LTE Европа
   - 📺 WiFi YouTube Fallback
-  - ⚡ 📺 WiFi YouTube Fallback
   - 📶 WiFi
-  - ⚡ 📶 WiFi
   - DIRECT
   - 🇩🇪 Германия | YT без рекламы
   - 🇸🇪 Швеция | YT без рекламы
@@ -872,13 +868,9 @@ proxy-groups:
   proxies:
   - DIRECT
   - 🇷🇺 LTE Россия
-  - ⚡ 🇷🇺 LTE Россия
   - 🇪🇺 LTE Европа
-  - ⚡ 🇪🇺 LTE Европа
   - 📺 WiFi YouTube Fallback
-  - ⚡ 📺 WiFi YouTube Fallback
   - 📶 WiFi
-  - ⚡ 📶 WiFi
   - 🇩🇪 Германия | YT без рекламы
   - 🇸🇪 Швеция | YT без рекламы
   - 🇱🇹 Литва | YT без рекламы
@@ -924,63 +916,54 @@ proxy-groups:
   - 🇪🇺⚡ LTE Европа 4
   - 🇷🇺⚡ LTE Россия 4
 - name: 🇷🇺 LTE Россия
-  type: fallback
+  type: url-test
   url: https://www.gstatic.com/generate_204
-  interval: 300
-  proxies: &id001
+  interval: 120
+  tolerance: 50
+  lazy: false
+  unified-delay: true
+  proxies:
   - '🇷🇺⚡ LTE Россия '
   - 🇷🇺⚡ LTE Россия 1
   - 🇷🇺⚡ LTE Россия 2
   - 🇷🇺⚡ LTE Россия 3
   - 🇷🇺⚡ LTE Россия 4
-- name: ⚡ 🇷🇺 LTE Россия
+- name: 🇪🇺 LTE Европа
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 120
   tolerance: 50
   lazy: false
   unified-delay: true
-  proxies: *id001
-- name: 🇪🇺 LTE Европа
-  type: fallback
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  proxies: &id002
+  proxies:
+  - 🇳🇱⚡ LTE Нидерланды
+  - 🇱🇹⚡ LTE Литва
+  - 🇵🇱⚡ LTE Польша
   - 🇪🇺⚡ LTE Европа 1
   - 🇪🇺⚡ LTE Европа 2
   - 🇪🇺⚡ LTE Европа 3
   - 🇪🇺⚡ LTE Европа 4
-- name: ⚡ 🇪🇺 LTE Европа
+- name: 📺 WiFi YouTube Fallback
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 120
   tolerance: 50
   lazy: false
   unified-delay: true
-  proxies: *id002
-- name: 📺 WiFi YouTube Fallback
-  type: fallback
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  proxies: &id003
+  proxies:
   - 🇩🇪 Германия | YT без рекламы
   - 🇸🇪 Швеция | YT без рекламы
   - 🇱🇹 Литва | YT без рекламы
   - 🇫🇮 Финляндия | YT без рекламы
   - 🇵🇱 Польша | YT без рекламы
-- name: ⚡ 📺 WiFi YouTube Fallback
+- name: 📶 WiFi
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 120
   tolerance: 50
   lazy: false
   unified-delay: true
-  proxies: *id003
-- name: 📶 WiFi
-  type: fallback
-  url: https://www.gstatic.com/generate_204
-  interval: 300
-  proxies: &id004
+  proxies:
   - 🇨🇭 Швейцария
   - 🇦🇹 Австрия
   - 🇳🇱 Нидерланды
@@ -1007,17 +990,6 @@ proxy-groups:
   - 🇦🇺 Австралия
   - 🇸🇪 Швеция • Gaming 🎮
   - 🇫🇮 Финляндия • Gaming 🎮
-  - 🇳🇱⚡ LTE Нидерланды
-  - 🇱🇹⚡ LTE Литва
-  - 🇵🇱⚡ LTE Польша
-- name: ⚡ 📶 WiFi
-  type: url-test
-  url: https://www.gstatic.com/generate_204
-  interval: 120
-  tolerance: 50
-  lazy: false
-  unified-delay: true
-  proxies: *id004
 rules:
 - DOMAIN-SUFFIX,firebaseinstallations.googleapis.com,DIRECT
 - DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,DIRECT
