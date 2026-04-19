@@ -379,6 +379,21 @@ proxies:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
   client-fingerprint: qq
+- name: 🇮🇪 Ирландия
+  type: vless
+  server: irl.api-yandex.net
+  port: 443
+  network: tcp
+  udp: true
+  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
+  packet-encoding: xudp
+  flow: xtls-rprx-vision
+  tls: true
+  servername: irl.api-yandex.net
+  reality-opts:
+    public-key: 7lVwd8R4oSlwO4jjmtQP9LtltVT2ifjjq6huCL_YjSU
+    short-id: 222aacf11101e75f
+  client-fingerprint: qq
 - name: 🇫🇷 Франция
   type: vless
   server: fr-most.api-yandex.net
@@ -438,21 +453,6 @@ proxies:
   reality-opts:
     public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
     short-id: 0f4dacf66101e05f
-  client-fingerprint: qq
-- name: 🇮🇪 Ирландия
-  type: vless
-  server: irl.api-yandex.net
-  port: 443
-  network: tcp
-  udp: true
-  uuid: 959b4df5-15bc-4eb8-8b93-95f6af50cd80
-  packet-encoding: xudp
-  flow: xtls-rprx-vision
-  tls: true
-  servername: irl.api-yandex.net
-  reality-opts:
-    public-key: 7lVwd8R4oSlwO4jjmtQP9LtltVT2ifjjq6huCL_YjSU
-    short-id: 222aacf11101e75f
   client-fingerprint: qq
 - name: 🇮🇳 Индия
   type: vless
@@ -768,7 +768,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇷🇺⚡ LTE Россия 3
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 8443
   network: tcp
   udp: true
@@ -836,11 +836,11 @@ proxy-groups:
   - ' 🇮🇹 Италия'
   - 🇱🇻 Латвия
   - 🇬🇧 Великобритания
+  - 🇮🇪 Ирландия
   - 🇫🇷 Франция
   - 🇰🇿 Казахстан
   - 🇪🇸 Испания
   - 🇭🇰 Гонконг
-  - 🇮🇪 Ирландия
   - 🇮🇳 Индия
   - 🇸🇬 Сингапур
   - 🇧🇾 Беларусь
@@ -888,11 +888,11 @@ proxy-groups:
   - ' 🇮🇹 Италия'
   - 🇱🇻 Латвия
   - 🇬🇧 Великобритания
+  - 🇮🇪 Ирландия
   - 🇫🇷 Франция
   - 🇰🇿 Казахстан
   - 🇪🇸 Испания
   - 🇭🇰 Гонконг
-  - 🇮🇪 Ирландия
   - 🇮🇳 Индия
   - 🇸🇬 Сингапур
   - 🇧🇾 Беларусь
@@ -975,11 +975,11 @@ proxy-groups:
   - ' 🇮🇹 Италия'
   - 🇱🇻 Латвия
   - 🇬🇧 Великобритания
+  - 🇮🇪 Ирландия
   - 🇫🇷 Франция
   - 🇰🇿 Казахстан
   - 🇪🇸 Испания
   - 🇭🇰 Гонконг
-  - 🇮🇪 Ирландия
   - 🇮🇳 Индия
   - 🇸🇬 Сингапур
   - 🇧🇾 Беларусь
