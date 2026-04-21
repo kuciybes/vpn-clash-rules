@@ -783,7 +783,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇪🇺⚡ LTE Европа 4
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 51197
   network: tcp
   udp: true
