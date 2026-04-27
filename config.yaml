@@ -706,7 +706,7 @@ proxies:
   reality-opts:
     public-key: Wc7Iq8Hxbo7meWIG7mrznOBx_ZdRZEd5kTE1NlXGqiY
     short-id: 0f4dacf08752e15f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇷🇺⚡ LTE Россия 1
   type: vless
   server: 51.250.19.254
@@ -721,7 +721,7 @@ proxies:
   reality-opts:
     public-key: AWXV0vrwk2dEVibYa-7zWBhEPPNIZmQO6w-N4XPjeDU
     short-id: 0f4dacf08712e45f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇪🇺⚡ LTE Европа 2
   type: vless
   server: 51.250.19.254
@@ -736,7 +736,7 @@ proxies:
   reality-opts:
     public-key: qWCLKF-vjac5RucLpavn2u-fa8y19_gu2YFBCh_gWVs
     short-id: 0f4dacf08751e10f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇷🇺⚡ LTE Россия 2
   type: vless
   server: 51.250.19.254
@@ -751,7 +751,7 @@ proxies:
   reality-opts:
     public-key: Xp3KZUlwmX94kBzAfpJ-QFzfbgVOe_TdIilH_1dKfjc
     short-id: 0f4dacf08751e90f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇪🇺⚡ LTE Европа 3
   type: vless
   server: 84.201.178.109
@@ -766,10 +766,10 @@ proxies:
   reality-opts:
     public-key: Wc7Iq8Hxbo7meWIG7mrznOBx_ZdRZEd5kTE1NlXGqiY
     short-id: 0f4dacf08752e15f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇷🇺⚡ LTE Россия 3
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 8443
   network: tcp
   udp: true
@@ -781,7 +781,7 @@ proxies:
   reality-opts:
     public-key: AWXV0vrwk2dEVibYa-7zWBhEPPNIZmQO6w-N4XPjeDU
     short-id: 0f4dacf08712e45f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇪🇺⚡ LTE Европа 4
   type: vless
   server: 84.201.178.109
@@ -796,7 +796,7 @@ proxies:
   reality-opts:
     public-key: qWCLKF-vjac5RucLpavn2u-fa8y19_gu2YFBCh_gWVs
     short-id: 0f4dacf08751e10f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇷🇺⚡ LTE Россия 4
   type: vless
   server: 84.201.178.109
@@ -811,7 +811,7 @@ proxies:
   reality-opts:
     public-key: Xp3KZUlwmX94kBzAfpJ-QFzfbgVOe_TdIilH_1dKfjc
     short-id: 0f4dacf08751e90f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 proxy-groups:
 - name: 🌍 VPN
   type: select
