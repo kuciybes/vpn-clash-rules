@@ -754,7 +754,7 @@ proxies:
   client-fingerprint: chrome
 - name: 🇪🇺⚡ LTE Европа 3
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 443
   network: tcp
   udp: true
@@ -769,7 +769,7 @@ proxies:
   client-fingerprint: chrome
 - name: 🇷🇺⚡ LTE Россия 3
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 8443
   network: tcp
   udp: true
