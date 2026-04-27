@@ -799,7 +799,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇷🇺⚡ LTE Россия 4
   type: vless
-  server: 84.201.178.109
+  server: 84.201.160.204
   port: 51190
   network: tcp
   udp: true
