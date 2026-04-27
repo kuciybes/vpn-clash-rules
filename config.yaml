@@ -154,7 +154,7 @@ proxies:
   reality-opts:
     public-key: NLARt-womsWqopLrSLNpfp3bHXy3Pg08_LbFUQPhpjU
     short-id: 0f4dacf82203e11f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇸🇪 Швеция | YT без рекламы
   type: vless
   server: sw.api-yandex.net
@@ -169,7 +169,7 @@ proxies:
   reality-opts:
     public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
     short-id: 0f4dacf89993e21f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇱🇹 Литва | YT без рекламы
   type: vless
   server: lt.api-yandex.net
@@ -184,7 +184,7 @@ proxies:
   reality-opts:
     public-key: q_5Tfp_XKPzQdOtiLkVePVMQE6UVAV9xK_WxTULcJSA
     short-id: 00011cf66101e75f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇫🇮 Финляндия | YT без рекламы
   type: vless
   server: fl.api-yandex.net
@@ -199,7 +199,7 @@ proxies:
   reality-opts:
     public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
     short-id: 0f4dacf89993e11f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇵🇱 Польша | YT без рекламы
   type: vless
   server: pl.api-yandex.net
@@ -214,7 +214,7 @@ proxies:
   reality-opts:
     public-key: I4lUR4e9kgCZUY_yd2vY_nOcLw0B-e-CNOQxgBgAJn8
     short-id: 0f4dacf88252e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇷🇺 Россия | YT без рекламы
   type: vless
   server: ru.api-yandex.net
@@ -229,7 +229,7 @@ proxies:
   reality-opts:
     public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
     short-id: 0f4dacf89993e20f
-  client-fingerprint: edge
+  client-fingerprint: chrome
 - name: 🇨🇭 Швейцария
   type: vless
   server: ch.api-yandex.net
@@ -244,7 +244,7 @@ proxies:
   reality-opts:
     public-key: dYgKURfZTgnfxBZDT3SYZUuDIXC33aFdU47mBGC4pjw
     short-id: 114aacf66101e75f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇦🇹 Австрия
   type: vless
   server: at.api-yandex.net
@@ -259,7 +259,7 @@ proxies:
   reality-opts:
     public-key: hfJagZHzXLZaHqiyy59ZwnPFytw9WUMu1RGh29o3aVE
     short-id: 2f4dacf62222e15f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇳🇱 Нидерланды
   type: vless
   server: nlbr.api-yandex.net
@@ -274,7 +274,7 @@ proxies:
   reality-opts:
     public-key: 86QxRUvBk3_xNQqwHoyW2MrkNm9eEhbR2uirSnWHkW4
     short-id: 6f4dacf88292e06f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇺🇸 США
   type: vless
   server: us.api-yandex.net
@@ -289,7 +289,7 @@ proxies:
   reality-opts:
     public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
     short-id: 0f4dacf66101e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇳🇴 Норвегия
   type: vless
   server: no-most.api-yandex.net
@@ -304,7 +304,7 @@ proxies:
   reality-opts:
     public-key: 3y_BXj6smo8Fc8hrdw94yucA0_V-f8Q-1-WvgNZpsik
     short-id: 0a77acf80000e11f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇨🇦 Канада
   type: vless
   server: ca.api-yandex.net
@@ -319,7 +319,7 @@ proxies:
   reality-opts:
     public-key: Nbo573uk1nUiarXxtqQKPr0HGE9WerLF_eHHMsRrnEI
     short-id: 0f4dacf62221e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇹🇷 Турция
   type: vless
   server: tc.api-yandex.net
@@ -334,7 +334,7 @@ proxies:
   reality-opts:
     public-key: RFUsS4_6sMKBUBLIvMKhimFFf6f1vkldZy-nnU7ZJQw
     short-id: 0f4dacf62200e75f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: ' 🇮🇹 Италия'
   type: vless
   server: it-most.api-yandex.net
@@ -349,7 +349,7 @@ proxies:
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇱🇻 Латвия
   type: vless
   server: lv.api-yandex.net
@@ -364,7 +364,7 @@ proxies:
   reality-opts:
     public-key: cLTwcyrDLe5-4EX35lpT0tWOe4aOjuXvXFjnH1rFBG4
     short-id: 0f4dacf62222e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇬🇧 Великобритания
   type: vless
   server: gb-most.api-yandex.net
@@ -379,7 +379,7 @@ proxies:
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇫🇷 Франция
   type: vless
   server: fr-most.api-yandex.net
@@ -394,7 +394,7 @@ proxies:
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇰🇿 Казахстан
   type: vless
   server: kz.api-yandex.net
@@ -409,7 +409,7 @@ proxies:
   reality-opts:
     public-key: QXhMRZ1pg7uP2uM7wydWyJXFCV6kKuap1Uau0P3_yA0
     short-id: 2f4dacf62222e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇪🇸 Испания
   type: vless
   server: esp-most.api-yandex.net
@@ -424,7 +424,7 @@ proxies:
   reality-opts:
     public-key: vrBTRg3Wz1K_fxfk8B-lWS7ZUGwxCbeBUgTcWOkSqRY
     short-id: 0fdfdcf08722a04f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇮🇪 Ирландия
   type: vless
   server: irl.api-yandex.net
@@ -439,7 +439,7 @@ proxies:
   reality-opts:
     public-key: 7lVwd8R4oSlwO4jjmtQP9LtltVT2ifjjq6huCL_YjSU
     short-id: 222aacf11101e75f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇭🇰 Гонконг
   type: vless
   server: hk.api-yandex.net
@@ -454,7 +454,7 @@ proxies:
   reality-opts:
     public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
     short-id: 0f4dacf66101e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇮🇳 Индия
   type: vless
   server: in-most.api-yandex.net
@@ -469,7 +469,7 @@ proxies:
   reality-opts:
     public-key: waphnS0jrd99Dvg1uxlabnTh_D81_i82rZffEFW513Y
     short-id: 0a79acf99903e79f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇸🇬 Сингапур
   type: vless
   server: sg.api-yandex.net
@@ -484,7 +484,7 @@ proxies:
   reality-opts:
     public-key: bS0sniF87mp40JiHO6fEuNZmv0ZyHxu55ulj41pL038
     short-id: 0f4dacf62201e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇧🇾 Беларусь
   type: vless
   server: by.api-yandex.net
@@ -499,7 +499,7 @@ proxies:
   reality-opts:
     public-key: DjRqjdBkJgAG_le5Q14JXTki6m9XCsNKxgw74IB0kR4
     short-id: 0f4dacf62211e75f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇦🇲 Армения
   type: vless
   server: am.api-yandex.net
@@ -514,7 +514,7 @@ proxies:
   reality-opts:
     public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
     short-id: 0f4dacf66101e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: ' 🇦🇪 ОАЭ'
   type: vless
   server: ae-most.api-yandex.net
@@ -529,7 +529,7 @@ proxies:
   reality-opts:
     public-key: 3y_BXj6smo8Fc8hrdw94yucA0_V-f8Q-1-WvgNZpsik
     short-id: 0a77acf80000e11f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇯🇵Япония
   type: vless
   server: jp.api-yandex.net
@@ -544,7 +544,7 @@ proxies:
   reality-opts:
     public-key: IOO3P6BDqBjUA0gB4tgpvxrXL6Fit88QgpJ1y6GYyz0
     short-id: 0f4dacf88202e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇰🇷 Южная Корея
   type: vless
   server: kr-most.api-yandex.net
@@ -559,7 +559,7 @@ proxies:
   reality-opts:
     public-key: MUr-0xaCfV0855VUaQnAKaPB1uzb_0W6GWRWH141pDQ
     short-id: 0a77acf82203e11f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇵🇭 Филиппины
   type: vless
   server: ph.api-yandex.net
@@ -574,7 +574,7 @@ proxies:
   reality-opts:
     public-key: jA_Xd8qfMloJg0lbdxPnEcDJc3MltgueXpxYQAWnlD0
     short-id: 0f4dacf66101e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇦🇺 Австралия
   type: vless
   server: au.api-yandex.net
@@ -589,10 +589,10 @@ proxies:
   reality-opts:
     public-key: dbmjphZ4zg3EaD6TnP3Cp64y2IdyS1RuaUk1pGHRJ0Q
     short-id: 0f493cf66101e05f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇸🇪 Швеция • Gaming 🎮
   type: vless
-  server: sw.api-yandex.net
+  server: 185.189.46.67
   port: 443
   network: tcp
   udp: true
@@ -604,10 +604,10 @@ proxies:
   reality-opts:
     public-key: pU7ElcbPMVObHoWqGThioVD4i5ux_phWFwElN97aDSQ
     short-id: 0f4dacf89993e21f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇫🇮 Финляндия • Gaming 🎮
   type: vless
-  server: fl.api-yandex.net
+  server: 217.60.60.152
   port: 443
   network: tcp
   udp: true
@@ -619,7 +619,7 @@ proxies:
   reality-opts:
     public-key: jm1tsCkTKsXunYTjcdHLu_whRQRkZWlWdGbSFDVyREw
     short-id: 0f4dacf89993e11f
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇳🇱⚡ LTE Нидерланды
   type: vless
   server: s28315.cdn.ngenix.net
@@ -754,7 +754,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇪🇺⚡ LTE Европа 3
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 443
   network: tcp
   udp: true
@@ -799,7 +799,7 @@ proxies:
   client-fingerprint: qq
 - name: 🇷🇺⚡ LTE Россия 4
   type: vless
-  server: 84.201.160.204
+  server: 84.201.178.109
   port: 51190
   network: tcp
   udp: true
